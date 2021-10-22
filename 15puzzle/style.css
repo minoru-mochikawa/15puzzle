@@ -1,0 +1,42 @@
+.platform {
+    position: relative;
+    width: 1000px;
+    height: 1000px;
+    border-radius: 1%;
+    border: 1px solid gray;
+    background-color: aliceblue;
+    margin: 0px auto;
+}
+
+.tiles {
+    cursor: pointer;
+    width: 235px;
+    height: 235px;
+    border-radius: 5%;
+    border: 2px solid gray;
+    background-color: skyblue;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+
+.startBtn {
+    cursor: pointer;
+    width: 450px;
+    height: 100px;
+    margin-top: 25px;
+    text-align: center;
+    border: 2px solid gray;
+    background-color: rgb(230, 154, 13);
+    border-radius: 2px;
+}
+
+.board {
+    width: 1050px;
+    height: 1200px;
+    background-color: aliceblue;
+    margin: 0 auto;
+    padding: 25px;
+}
